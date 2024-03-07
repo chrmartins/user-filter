@@ -11,7 +11,8 @@ import { StatusPipe } from './status.pipe';
   ],
   exports: [
     PhonePipe,
-    AddressPipe
+    AddressPipe,
+    StatusPipe,
   ]
 })
 export class PipesModule { }
